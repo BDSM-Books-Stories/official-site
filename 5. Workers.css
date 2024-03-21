@@ -14,18 +14,21 @@
   border: 1px solid #0f0f0f;
   margin: 0px;
   padding: 5px;
-  flex:2;
+  flex:3;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: left;
   }
 
   #image_logo {
-    margin-right: 980px;
+    margin-left: 10px;
   }
 
   #text_logo {
-    margin-left: 352px;
+    flex:3;
+    display: flex;
+    justify-content: right;
+    margin-left: 357px;
   }
 
   #navigation {

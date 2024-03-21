@@ -14,18 +14,21 @@
   border: 1px solid #0f0f0f;
   margin: 0px;
   padding: 5px;
-  flex:2;
+  flex:3;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: left;
   }
 
   #image_logo {
-    margin-right: 980px;
+    margin-left: 10px;
   }
 
   #text_logo {
-    margin-left: 352px;
+    flex:3;
+    display: flex;
+    justify-content: right;
+    margin-left: 357px;
   }
 
 
@@ -183,19 +186,57 @@ color: #ffffff;
   margin-bottom: 15px;
 }
 
+.text_plink {
+    line-height: 10px;
+    font-size: 22px;
+}
+
+
+
+
 .kartinka {
   float: left;
-  margin-left: 12px;
-  margin-right: 5px;
 }
 
-.kartinka2 {
-  float: left;
-  margin-left: 12px;
-  margin-right: 15px;
-  margin-bottom: 60px;
+
+.knopka {
+    margin-top: 10px;
 }
 
-.kartinka3 {
-  margin-bottom: 5px;
+
+.ryad_knop{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.left_knop{
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.center_knop{
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right_knop{
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
